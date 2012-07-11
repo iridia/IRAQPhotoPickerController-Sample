@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF97EC1215AD824600D0CEB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97EC1115AD824600D0CEB2 /* UIKit.framework */; };
+		FF97EC1415AD824600D0CEB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97EC1315AD824600D0CEB2 /* Foundation.framework */; };
+		FF97EC1615AD824600D0CEB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97EC1515AD824600D0CEB2 /* CoreGraphics.framework */; };
+		FF97EC1C15AD824600D0CEB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF97EC1A15AD824600D0CEB2 /* InfoPlist.strings */; };
+		FF97EC1E15AD824600D0CEB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF97EC1D15AD824600D0CEB2 /* main.m */; };
+		FF97EC2215AD824600D0CEB2 /* IRAQPPCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF97EC2115AD824600D0CEB2 /* IRAQPPCSAppDelegate.m */; };
+		FF97EC2515AD824600D0CEB2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF97EC2315AD824600D0CEB2 /* MainStoryboard.storyboard */; };
+		FF97EC2815AD824600D0CEB2 /* IRAQPPCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF97EC2715AD824600D0CEB2 /* IRAQPPCSViewController.m */; };
+		FF97EC4B15AD837900D0CEB2 /* IRAQPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF97EC4A15AD837800D0CEB2 /* IRAQPhotoPickerController.m */; };
+		FF97EC5B15AD849600D0CEB2 /* IRAQAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF97EC5A15AD849600D0CEB2 /* IRAQAlbumListViewController.m */; };
+		FF97EC5D15AD84B200D0CEB2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97EC5C15AD84B200D0CEB2 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF97EC4715AD82D300D0CEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF97EC4015AD82D300D0CEB2 /* AQGridView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = AQGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF97EC0D15AD824600D0CEB2 /* IRAQPhotoPickerController-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IRAQPhotoPickerController-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF97EC1115AD824600D0CEB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF97EC1315AD824600D0CEB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF97EC1515AD824600D0CEB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF97EC1915AD824600D0CEB2 /* IRAQPhotoPickerController-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IRAQPhotoPickerController-Sample-Info.plist"; sourceTree = "<group>"; };
+		FF97EC1B15AD824600D0CEB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF97EC1D15AD824600D0CEB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF97EC1F15AD824600D0CEB2 /* IRAQPhotoPickerController-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRAQPhotoPickerController-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		FF97EC2015AD824600D0CEB2 /* IRAQPPCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAQPPCSAppDelegate.h; sourceTree = "<group>"; };
+		FF97EC2115AD824600D0CEB2 /* IRAQPPCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAQPPCSAppDelegate.m; sourceTree = "<group>"; };
+		FF97EC2415AD824600D0CEB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FF97EC2615AD824600D0CEB2 /* IRAQPPCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAQPPCSViewController.h; sourceTree = "<group>"; };
+		FF97EC2715AD824600D0CEB2 /* IRAQPPCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAQPPCSViewController.m; sourceTree = "<group>"; };
+		FF97EC4015AD82D300D0CEB2 /* AQGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AQGridView.xcodeproj; path = AQGridView/AQGridView.xcodeproj; sourceTree = "<group>"; };
+		FF97EC4915AD837800D0CEB2 /* IRAQPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRAQPhotoPickerController.h; path = IRAQPhotoPickerController/IRAQPhotoPickerController.h; sourceTree = SOURCE_ROOT; };
+		FF97EC4A15AD837800D0CEB2 /* IRAQPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRAQPhotoPickerController.m; path = IRAQPhotoPickerController/IRAQPhotoPickerController.m; sourceTree = SOURCE_ROOT; };
+		FF97EC5815AD844F00D0CEB2 /* IRAQPhotoPickerControllerSubclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRAQPhotoPickerControllerSubclass.h; path = IRAQPhotoPickerController/IRAQPhotoPickerControllerSubclass.h; sourceTree = SOURCE_ROOT; };
+		FF97EC5915AD849600D0CEB2 /* IRAQAlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRAQAlbumListViewController.h; path = IRAQPhotoPickerController/IRAQAlbumListViewController.h; sourceTree = SOURCE_ROOT; };
+		FF97EC5A15AD849600D0CEB2 /* IRAQAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRAQAlbumListViewController.m; path = IRAQPhotoPickerController/IRAQAlbumListViewController.m; sourceTree = SOURCE_ROOT; };
+		FF97EC5C15AD84B200D0CEB2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		FF97EC5E15AD859C00D0CEB2 /* IRAQAlbumListViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRAQAlbumListViewControllerDelegate.h; path = ../IRAQPhotoPickerController/IRAQAlbumListViewControllerDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF97EC0A15AD824600D0CEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF97EC1215AD824600D0CEB2 /* UIKit.framework in Frameworks */,
+				FF97EC1415AD824600D0CEB2 /* Foundation.framework in Frameworks */,
+				FF97EC1615AD824600D0CEB2 /* CoreGraphics.framework in Frameworks */,
+				FF97EC5D15AD84B200D0CEB2 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF97EC0215AD824600D0CEB2 = {
+			isa = PBXGroup;
+			children = (
+				FF97EC1715AD824600D0CEB2 /* Sample */,
+				FF97EC4C15AD837B00D0CEB2 /* Picker */,
+				FF97EC1815AD824600D0CEB2 /* Supporting Files */,
+				FF97EC1015AD824600D0CEB2 /* Frameworks */,
+				FF97EC0E15AD824600D0CEB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF97EC0E15AD824600D0CEB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF97EC0D15AD824600D0CEB2 /* IRAQPhotoPickerController-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF97EC1015AD824600D0CEB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF97EC4015AD82D300D0CEB2 /* AQGridView.xcodeproj */,
+				FF97EC5C15AD84B200D0CEB2 /* AssetsLibrary.framework */,
+				FF97EC1515AD824600D0CEB2 /* CoreGraphics.framework */,
+				FF97EC1315AD824600D0CEB2 /* Foundation.framework */,
+				FF97EC1115AD824600D0CEB2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF97EC1715AD824600D0CEB2 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				FF97EC2015AD824600D0CEB2 /* IRAQPPCSAppDelegate.h */,
+				FF97EC2115AD824600D0CEB2 /* IRAQPPCSAppDelegate.m */,
+				FF97EC2615AD824600D0CEB2 /* IRAQPPCSViewController.h */,
+				FF97EC2715AD824600D0CEB2 /* IRAQPPCSViewController.m */,
+				FF97EC2315AD824600D0CEB2 /* MainStoryboard.storyboard */,
+			);
+			name = Sample;
+			path = "IRAQPhotoPickerController-Sample";
+			sourceTree = "<group>";
+		};
+		FF97EC1815AD824600D0CEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF97EC1915AD824600D0CEB2 /* IRAQPhotoPickerController-Sample-Info.plist */,
+				FF97EC1A15AD824600D0CEB2 /* InfoPlist.strings */,
+				FF97EC1D15AD824600D0CEB2 /* main.m */,
+				FF97EC1F15AD824600D0CEB2 /* IRAQPhotoPickerController-Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "IRAQPhotoPickerController-Sample";
+			sourceTree = "<group>";
+		};
+		FF97EC4115AD82D300D0CEB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF97EC4815AD82D300D0CEB2 /* libAQGridView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF97EC4C15AD837B00D0CEB2 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				FF97EC4915AD837800D0CEB2 /* IRAQPhotoPickerController.h */,
+				FF97EC4A15AD837800D0CEB2 /* IRAQPhotoPickerController.m */,
+				FF97EC5815AD844F00D0CEB2 /* IRAQPhotoPickerControllerSubclass.h */,
+				FF97EC5915AD849600D0CEB2 /* IRAQAlbumListViewController.h */,
+				FF97EC5A15AD849600D0CEB2 /* IRAQAlbumListViewController.m */,
+				FF97EC5E15AD859C00D0CEB2 /* IRAQAlbumListViewControllerDelegate.h */,
+			);
+			name = Picker;
+			path = "IRAQPhotoPickerController-Sample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF97EC0C15AD824600D0CEB2 /* IRAQPhotoPickerController-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF97EC2B15AD824600D0CEB2 /* Build configuration list for PBXNativeTarget "IRAQPhotoPickerController-Sample" */;
+			buildPhases = (
+				FF97EC0915AD824600D0CEB2 /* Sources */,
+				FF97EC0A15AD824600D0CEB2 /* Frameworks */,
+				FF97EC0B15AD824600D0CEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IRAQPhotoPickerController-Sample";
+			productName = "IRAQPhotoPickerController-Sample";
+			productReference = FF97EC0D15AD824600D0CEB2 /* IRAQPhotoPickerController-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF97EC0415AD824600D0CEB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IRAQPPCS;
+				ORGANIZATIONNAME = "Iridia Productions";
+			};
+			buildConfigurationList = FF97EC0715AD824600D0CEB2 /* Build configuration list for PBXProject "IRAQPhotoPickerController-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF97EC0215AD824600D0CEB2;
+			productRefGroup = FF97EC0E15AD824600D0CEB2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF97EC4115AD82D300D0CEB2 /* Products */;
+					ProjectRef = FF97EC4015AD82D300D0CEB2 /* AQGridView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FF97EC0C15AD824600D0CEB2 /* IRAQPhotoPickerController-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF97EC4815AD82D300D0CEB2 /* libAQGridView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAQGridView.a;
+			remoteRef = FF97EC4715AD82D300D0CEB2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF97EC0B15AD824600D0CEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF97EC1C15AD824600D0CEB2 /* InfoPlist.strings in Resources */,
+				FF97EC2515AD824600D0CEB2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF97EC0915AD824600D0CEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF97EC1E15AD824600D0CEB2 /* main.m in Sources */,
+				FF97EC2215AD824600D0CEB2 /* IRAQPPCSAppDelegate.m in Sources */,
+				FF97EC2815AD824600D0CEB2 /* IRAQPPCSViewController.m in Sources */,
+				FF97EC4B15AD837900D0CEB2 /* IRAQPhotoPickerController.m in Sources */,
+				FF97EC5B15AD849600D0CEB2 /* IRAQAlbumListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF97EC1A15AD824600D0CEB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF97EC1B15AD824600D0CEB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF97EC2315AD824600D0CEB2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF97EC2415AD824600D0CEB2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF97EC2915AD824600D0CEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AQGridView/Classes/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF97EC2A15AD824600D0CEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AQGridView/Classes/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF97EC2C15AD824600D0CEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRAQPhotoPickerController-Sample/IRAQPhotoPickerController-Sample-Prefix.pch";
+				INFOPLIST_FILE = "IRAQPhotoPickerController-Sample/IRAQPhotoPickerController-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF97EC2D15AD824600D0CEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRAQPhotoPickerController-Sample/IRAQPhotoPickerController-Sample-Prefix.pch";
+				INFOPLIST_FILE = "IRAQPhotoPickerController-Sample/IRAQPhotoPickerController-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF97EC0715AD824600D0CEB2 /* Build configuration list for PBXProject "IRAQPhotoPickerController-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF97EC2915AD824600D0CEB2 /* Debug */,
+				FF97EC2A15AD824600D0CEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF97EC2B15AD824600D0CEB2 /* Build configuration list for PBXNativeTarget "IRAQPhotoPickerController-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF97EC2C15AD824600D0CEB2 /* Debug */,
+				FF97EC2D15AD824600D0CEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF97EC0415AD824600D0CEB2 /* Project object */;
+}
