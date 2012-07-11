@@ -1,3 +1,6 @@
 [submodule "AQGridView"]
 	path = AQGridView
 	url = git://github.com/iridia/AQGridView.git
+[submodule "IRAQPhotoPickerController"]
+	path = IRAQPhotoPickerController
+	url = git://github.com/iridia/IRAQPhotoPickerController.git
