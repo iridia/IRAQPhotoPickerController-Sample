@@ -25,8 +25,6 @@
 	
 	__block IRAQPhotoPickerController *controller = [[IRAQPhotoPickerController alloc] initWithCompletion:^(NSArray *selectedAssets, NSError *error) {
 	
-		NSLog(@"%@ %@", selectedAssets, error);
-		
 		if (error) {
 		
 			if ([error.domain isEqualToString:ALAssetsLibraryErrorDomain]) {
