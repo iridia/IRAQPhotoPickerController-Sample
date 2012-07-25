@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF4DF21215BEDA6200C8FC7E /* IRAQPPCSAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF21115BEDA6200C8FC7E /* IRAQPPCSAssetCell.m */; };
 		FF56A44515BAECA100BAD846 /* UIViewController+IRAQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF56A44415BAECA100BAD846 /* UIViewController+IRAQAdditions.m */; };
 		FF56A44815BAEED000BAD846 /* IRAQPhotoGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF56A44715BAEED000BAD846 /* IRAQPhotoGridViewController.m */; };
 		FF56A44C15BAF02500BAD846 /* libAQGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97EC4815AD82D300D0CEB2 /* libAQGridView.a */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF4DF21015BEDA6200C8FC7E /* IRAQPPCSAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRAQPPCSAssetCell.h; sourceTree = "<group>"; };
+		FF4DF21115BEDA6200C8FC7E /* IRAQPPCSAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRAQPPCSAssetCell.m; sourceTree = "<group>"; };
 		FF56A44315BAECA100BAD846 /* UIViewController+IRAQAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+IRAQAdditions.h"; path = "IRAQPhotoPickerController/UIViewController+IRAQAdditions.h"; sourceTree = SOURCE_ROOT; };
 		FF56A44415BAECA100BAD846 /* UIViewController+IRAQAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+IRAQAdditions.m"; path = "IRAQPhotoPickerController/UIViewController+IRAQAdditions.m"; sourceTree = SOURCE_ROOT; };
 		FF56A44615BAEED000BAD846 /* IRAQPhotoGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRAQPhotoGridViewController.h; path = IRAQPhotoPickerController/IRAQPhotoGridViewController.h; sourceTree = SOURCE_ROOT; };
@@ -80,8 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF56A44C15BAF02500BAD846 /* libAQGridView.a in Frameworks */,
 				FF97EC5D15AD84B200D0CEB2 /* AssetsLibrary.framework in Frameworks */,
+				FF56A44C15BAF02500BAD846 /* libAQGridView.a in Frameworks */,
 				FF97EC1615AD824600D0CEB2 /* CoreGraphics.framework in Frameworks */,
 				FF97EC1415AD824600D0CEB2 /* Foundation.framework in Frameworks */,
 				FF56A44E15BAF03800BAD846 /* QuartzCore.framework in Frameworks */,
@@ -131,6 +134,8 @@
 				FF97EC2115AD824600D0CEB2 /* IRAQPPCSAppDelegate.m */,
 				FF97EC2615AD824600D0CEB2 /* IRAQPPCSViewController.h */,
 				FF97EC2715AD824600D0CEB2 /* IRAQPPCSViewController.m */,
+				FF4DF21015BEDA6200C8FC7E /* IRAQPPCSAssetCell.h */,
+				FF4DF21115BEDA6200C8FC7E /* IRAQPPCSAssetCell.m */,
 				FF97EC2315AD824600D0CEB2 /* MainStoryboard.storyboard */,
 			);
 			name = Sample;
@@ -267,6 +272,7 @@
 				FF56A44515BAECA100BAD846 /* UIViewController+IRAQAdditions.m in Sources */,
 				FF56A44815BAEED000BAD846 /* IRAQPhotoGridViewController.m in Sources */,
 				FF666D5D15BAF5C40083C5F4 /* IRAQPhotoCell.m in Sources */,
+				FF4DF21215BEDA6200C8FC7E /* IRAQPPCSAssetCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
