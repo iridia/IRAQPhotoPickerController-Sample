@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AssetsLibrary/AssetsLibrary.h>
+#import <AssetsLibrary/ALAsset.h>
 
 @interface IRAQPPCSViewController : UITableViewController
 
