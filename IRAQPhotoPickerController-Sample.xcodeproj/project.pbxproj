@@ -24,6 +24,7 @@
 		FF97EC4B15AD837900D0CEB2 /* IRAQPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF97EC4A15AD837800D0CEB2 /* IRAQPhotoPickerController.m */; };
 		FF97EC5B15AD849600D0CEB2 /* IRAQAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF97EC5A15AD849600D0CEB2 /* IRAQAlbumListViewController.m */; };
 		FF97EC5D15AD84B200D0CEB2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97EC5C15AD84B200D0CEB2 /* AssetsLibrary.framework */; };
+		FFF1392815BFD69C00CC0115 /* IRAQAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF1392715BFD69C00CC0115 /* IRAQAlbumCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		FF97EC5A15AD849600D0CEB2 /* IRAQAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRAQAlbumListViewController.m; path = IRAQPhotoPickerController/IRAQAlbumListViewController.m; sourceTree = SOURCE_ROOT; };
 		FF97EC5C15AD84B200D0CEB2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		FF97EC5E15AD859C00D0CEB2 /* IRAQAlbumListViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRAQAlbumListViewControllerDelegate.h; path = ../IRAQPhotoPickerController/IRAQAlbumListViewControllerDelegate.h; sourceTree = "<group>"; };
+		FFF1392615BFD69C00CC0115 /* IRAQAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRAQAlbumCell.h; path = IRAQPhotoPickerController/IRAQAlbumCell.h; sourceTree = SOURCE_ROOT; };
+		FFF1392715BFD69C00CC0115 /* IRAQAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRAQAlbumCell.m; path = IRAQPhotoPickerController/IRAQAlbumCell.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				FF56A44615BAEED000BAD846 /* IRAQPhotoGridViewController.h */,
 				FF56A44715BAEED000BAD846 /* IRAQPhotoGridViewController.m */,
 				FF56A44915BAEF0100BAD846 /* IRAQPhotoGridViewControllerDelegate.h */,
+				FFF1392615BFD69C00CC0115 /* IRAQAlbumCell.h */,
+				FFF1392715BFD69C00CC0115 /* IRAQAlbumCell.m */,
 				FF666D5B15BAF5C40083C5F4 /* IRAQPhotoCell.h */,
 				FF666D5C15BAF5C40083C5F4 /* IRAQPhotoCell.m */,
 				FF666D5E15BAFB2C0083C5F4 /* IRAQPhotoCellSubclass.h */,
@@ -273,6 +278,7 @@
 				FF56A44815BAEED000BAD846 /* IRAQPhotoGridViewController.m in Sources */,
 				FF666D5D15BAF5C40083C5F4 /* IRAQPhotoCell.m in Sources */,
 				FF4DF21215BEDA6200C8FC7E /* IRAQPPCSAssetCell.m in Sources */,
+				FFF1392815BFD69C00CC0115 /* IRAQAlbumCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

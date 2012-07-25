@@ -83,7 +83,7 @@
 
 - (IBAction) handleAdd:(id)sender {
 	
-	__block IRAQPhotoPickerController *controller = [[IRAQPhotoPickerController alloc] initWithCompletion:^(NSArray *selectedAssets, NSError *error) {
+	__block IRAQPhotoPickerController *controller = [[IRAQPhotoPickerController alloc] initWithAssetsLibrary:self.assetsLibrary completion:^(NSArray *selectedAssets, NSError *error) {
 	
 		if (error) {
 		
@@ -91,7 +91,7 @@
 				
 				if ((error.code == ALAssetsLibraryAccessUserDeniedError) || (error.code == ALAssetsLibraryAccessUserDeniedError)) {
 					
-					NSLog(@"probably denied");
+					NSLog(@"User denied access.  Probably pop an alert.");
 
 				}
 				
@@ -99,38 +99,8 @@
 		
 		} else {
 		
-			if (selectedAssets) {
-			
-				__weak IRAQPPCSViewController *wSelf = self;
-			
-				for (ALAsset *asset in selectedAssets) {
-					
-					NSArray *assetReps = [asset valueForProperty:ALAssetPropertyRepresentations];
-					NSDictionary *assetURLs = [asset valueForProperty:ALAssetPropertyURLs];
-					NSString *repUTI = [assetReps lastObject];
-					NSURL *assetURL = repUTI ? [assetURLs objectForKey:repUTI] : nil;
-					
-					if (!assetURL)
-						continue;
-					
-					ALAssetsLibrary * const wAssetsLibrary = self.assetsLibrary;
-					
-					[wAssetsLibrary assetForURL:assetURL resultBlock:^(ALAsset *asset) {
-					
-						if (wSelf.assetsLibrary != wAssetsLibrary)
-							return;
-						
-						[[wSelf mutableArrayValueForKey:@"assets"] addObject:asset];
-						
-					} failureBlock:^(NSError *error) {
-					
-						NSLog(@"%@", error);
-						
-					}];
-					
-				}
-			
-			}
+			if ([selectedAssets count])
+				[[self mutableArrayValueForKey:@"assets"] addObjectsFromArray:selectedAssets];
 		
 		}
 		
@@ -155,7 +125,11 @@
 	
 		if ([self isViewLoaded]) {
 		
-			[self.tableView reloadData];
+			UITableView * const tv = self.tableView;
+			[tv reloadData];
+			
+			NSIndexPath * const ip = [NSIndexPath indexPathForRow:([tv numberOfRowsInSection:0] - 1) inSection:0];
+			[tv scrollToRowAtIndexPath:ip atScrollPosition:UITableViewScrollPositionBottom animated:YES];
 		
 		}
 	
